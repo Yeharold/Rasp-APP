@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的APP</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <!-- @Date    : 2017-12-12 15:15:05 -->
+    <!-- @Author  : YeHarold (1174484433@qq.com) -->
+    <script src=""></script>
+</head>
+
+<body>
+    <div class="container">
+        <legend style="text-align: center;">
+            <h1>欢迎来到应用</h1>
+        </legend>
+        <br>
+        <div class="col-md-12">
+            <form action="/on" method="POST" role="form">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">开灯</button>
+            </form>
+        </div>
+        <br>
+        <div class="col-md-12">
+            <form action="/off" method="POST" role="form">
+                <button type="submit" class="btn btn-primary btn-lg btn-block ">关灯</button>
+            </form>
+        </div>
+        <br>
+        <div class="col-md-12">
+            <form action="/start" method="POST" role="form">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">开始采集</button>
+            </form>
+        </div>
+        <br>
+        <div class="col-md-12">
+            <form action="/stop" method="POST" role="form">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">停止采集</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
