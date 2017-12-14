@@ -35,24 +35,6 @@ from app.models import *
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # ----------------test------------------------
 
 def getTemperature():
