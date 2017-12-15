@@ -44,7 +44,7 @@ sudo nano default
 把下面配置粘贴进去,然后ctrl+o,ctrl+x
 ```
 
-	```xml
+```
 	server {
 		listen 80; 
 		location / {
@@ -53,7 +53,7 @@ sudo nano default
 			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 		}
 	}
-	```
+```
 
 --------------------------------------------------
 
