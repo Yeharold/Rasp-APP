@@ -44,7 +44,7 @@ sudo nano default
 把下面配置粘贴进去,然后ctrl+o,ctrl+x
 ```
 
-```json
+	```xml
 	server {
 		listen 80; 
 		location / {
@@ -53,7 +53,7 @@ sudo nano default
 			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 		}
 	}
-```
+	```
 
 --------------------------------------------------
 
@@ -89,7 +89,7 @@ gunicorn -w 1 -b 127.0.0.1:8080 run:app
 -------------------------------------------------
 ## 其他说明:
 * 传感器采集数据部分是模拟采集
-* 代码还行进一步完善
+* 代码还有待进一步完善
 
 * 停此gunicorn执行:
 ```
